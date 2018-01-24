@@ -14,7 +14,7 @@ cd naive-hashcat
 ./build-hashcat-osx.sh
 
 # download the 134MB rockyou dictionary file
-curl -L -o dicts/rockyou.txt https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+curl -L -o dicts/rockyou.txt http://bit.ly/2n9vipE
 
 # cracks md5 hashes in hashcat-3.6.0/example0.hash by default
 ./naive-hashcat.sh
